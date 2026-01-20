@@ -180,14 +180,3 @@ Backend Developer | Java | Spring Boot
 ⭐ If you like this project, give it a star!
 
 ---
-
-## ✅ What to do now
-1. `README.md` open karo  
-2. **Paste this**
-3. Save
-4. Run:
-
-```bash
-git add README.md
-git commit -m "Added complete project README"
-git push
