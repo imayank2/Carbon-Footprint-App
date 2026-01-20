@@ -37,11 +37,17 @@ Controller → Service → Repository → Database
 
 com.site_survey
 │
+
 ├── controller # REST APIs
+
 ├── service # Business logic
+
 ├── repository # Database queries (JPA)
+
 ├── entity # Database entities
+
 ├── config # App configuration
+
 └── util # Utility classes
 
 
@@ -114,7 +120,7 @@ POST http://localhost:8082/carbon/calculate
   "dietType": "NonVeg",
   "energyUsage": 250
 }
-
+```
 🗄️ Database Configuration
 
 spring.datasource.url=jdbc:mysql://localhost:3306/carbon_db
