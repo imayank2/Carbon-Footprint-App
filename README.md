@@ -123,22 +123,33 @@ POST http://localhost:8082/carbon/calculate
 }
 ```
 🗄️ Database Configuration
-
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/carbon_db
+
 spring.datasource.username=root
+
 spring.datasource.password=your_password
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
 
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.show-sql=true
+```
+
+🧑‍💻 How to Run Locally
+```
 
 git clone https://github.com/imayank2/Carbon-Footprint-App.git
+
 cd Carbon-Footprint-App
+
 mvn spring-boot:run
+```
 
 Application runs on:
+```
 http://localhost:8082
-
+```
 🎓 Learning Outcomes
 
 - REST API design
